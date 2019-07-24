@@ -1,0 +1,163 @@
+
+@media (max-width: 560px) {
+	h1 {
+		font-size: 30px;
+		font-weight: bold;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+	#menu {
+		height: 630vw;
+
+	}
+
+	#zeroP {
+		top: 21vw;
+	}
+
+	#one {
+		/* position: relative; */
+		top: 29vw;
+		left: 11vw;
+		width: 54vw;
+	}
+
+	#oneP {
+		top: 23vw;
+	}
+
+	#two {
+		/* position: relative; */
+		top: 44vw;
+    left: 45vw;
+    width: 36vw;
+	}
+
+	#twoP {
+		top: 38vw;
+	}
+
+	#three {
+		/* position: relative; */
+		top: 111vw;
+    left: 10vw;
+    width: 50vw;
+	}
+	#threeP {
+		top: 105vw;
+	}
+
+	#four {
+		/* position: relative; */
+		top: 49vw;
+    left: 12vw;
+    width: 53vw;
+	}
+	#fourP {
+		top: 45vw;
+	}
+
+	#five {
+		/* position: relative; */
+		top: 65vw;
+    left: 6vw;
+    width: 49vw;
+	}
+	#fiveP {
+		top: 59vw;
+	}
+
+	#six {
+		/* position: relative; */
+		top: 75vw;
+		left: 20vw;
+    width: 60vw;
+	}
+	#sixP {
+		top: 69vw;
+	}
+
+	#seven {
+		/* position: relative; */
+		top: 81vw;
+    left: 7vw;
+    width: 45vw;
+	}
+	#sevenP {
+		top: 75vw;
+	}
+
+	#eight {
+		/* position: relative; */
+		top: 63vw;
+    left: 18vw;
+    width: 63vw;
+	}
+	#eightP {
+		top: 57vw;
+	}
+
+	#nine {
+		/* position: relative; */
+		top: 106vw;
+		left: 49vw;
+    width: 33vw;
+	}
+	#nineP {
+		top: 100vw;
+	}
+
+	#ten {
+		top: 35vw;
+		left: 51vw;
+		width: 34vw;
+	}
+	#tenP {
+		top: 29vw;
+	}
+
+	#eleven {
+		top: 59vw;
+    left: 49vw;
+    width: 34vw;
+	}
+	#elevenP {
+		top: 53vw;
+	}
+
+	#twelve {
+		top: 39vw;
+		left: 25vw;
+	}
+	#twelveP {
+		top: 33vw;
+	}
+
+	#thirteen {
+		top: 120vw;
+    left: 51vw;
+    width: 34vw;
+	}
+	#thirteenP {
+		top: 114vw;
+	}
+
+	#fourteen {
+		top: 23vw;
+		left: 31vw;
+    width: 34vw;
+	}
+	#fourteenP {
+		top: 17vw;
+	}
+
+	#void {
+		/* position: relative; */
+		top: 143vw;
+		left: 62vw;
+		width: 23vw;
+	}
+}
