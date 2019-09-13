@@ -38,10 +38,23 @@
     top: 3vw;
   }
 
+  #five {
+    position: relative;
+    top: -2vw;
+    left: 23vw;
+    width: 34vw;
+    z-index: 9999;
+    /*margin-top: 100px;*/
+  }
+
+  #fiveP {
+    top: -9vw;
+  }
+
   #two {
     /* position: relative; */
-    top: 3vw;
-    left: 22vw;
+    top: 10vw;
+    left: 46vw;
     width: 28vw;
   }
 
@@ -64,7 +77,7 @@
     /* position: relative; */
     top: 12vw;
     left: 47vw;
-    width: 42vw;
+    width: 32vw;
 		z-index:900000;
   }
 
