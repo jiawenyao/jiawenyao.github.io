@@ -155,8 +155,8 @@ section {
 }
 
 h1 {
-  /*font-family: 'IBM Plex Sans', sans-serif;*/
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'IBM Plex Sans', sans-serif;
+  /*font-family: 'IBM Plex Mono', monospace;*/
   font-size: 54px;
   font-weight: normal;
   /*font-weight: bold;*/
