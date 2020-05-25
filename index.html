@@ -7,105 +7,306 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="me.css">
-  <link rel="icon" type="image/png" href="imgs/favicon-32x32.png" sizes="32x32" />
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=IBM+Plex+Mono&family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/breakpoint_smartphones.css" />
+  <!--content extension function-->
+  <script type="text/javascript" src="js/drawing.js"></script>
+  <link rel="icon" type="image/png" href="imgs/favicon-32x32.png" sizes="32x32" />
 
 </head>
 
 <body>
-  <pre id="one">
-  <span class="var-highlight">var</span> behind_this_wired_place {
-      name: <span class="string-highlight">"jiawen"</span>,
-      type: <span class="string-highlight">"pre-post-human"</span>,
-      location: <span class="string-highlight">"Shanghai"</span>,
-      address: <span><a class="mail" href="mailto:hijw.yao@gmail.com">"hijw.yao@gmail.com"</a></span>,
-      awake: <span class="string-highlight">True</span>;
-  }; </pre>
-  <br>
-  <br>
-  <br>
-  <br>
 
-  <pre id="two">
-  <span class="var-highlight">var</span> behind_this_wired_place {
-      name: <span class="string-highlight">"jiawen"</span>,
-      type: <span class="string-highlight">"pre-post-human"</span>,
-      location: <span class="string-highlight">"Shanghai"</span>,
-      address: <span><a class="mail" href="mailto:hijw.yao@gmail.com">"hijw.yao@gmail.com"</a></span>,
-      awake: <span class="string-highlight">True</span>;
-  }; </pre>
+  <!-- omg that's how you deal with the height -->
+  <div id="container">
+    <canvas width="2250" height="1844" style="width: 1125px; height: 922px;"></canvas>
+  </div>
 
-  <br>
-  <br>
-  <br>
-  <br>
 
-  <pre id="three">
-  <span class="var-highlight">var</span> behind_this_wired_place {
-      name: <span class="string-highlight">"jiawen"</span>,
-      type: <span class="string-highlight">"pre-post-human"</span>,
-      location: <span class="string-highlight">"Shanghai"</span>,
-      address: <span><a class="mail" href="mailto:hijw.yao@gmail.com">"hijw.yao@gmail.com"</a></span>,
-      awake: <span class="string-highlight">True</span>;
-  }; </pre>
+  <h1>jiawen<br>yao</h1>
 
-  <br>
-  <br>
-  <br>
-  <br>
+  <div id="etc">
+    <a class="highlight" id="_about" >  _about</a>
+    <br>
+    <a class="highlight" id="_contact"> _contact</a>
 
-  <pre id="four">
-  <span class="var-highlight">var</span> behind_this_wired_place {
-      name: <span class="string-highlight">"jiawen"</span>,
-      type: <span class="string-highlight">"pre-post-human"</span>,
-      location: <span class="string-highlight">"Shanghai"</span>,
-      address: <span><a class="mail" href="mailto:hijw.yao@gmail.com">"hijw.yao@gmail.com"</a></span>,
-      awake: <span class="string-highlight">True</span>;
-  }; </pre>
 
-  <br>
-  <br>
-  <br>
-  <br>
+    <div id="about">
+      <p class="me">
+        A designer scavenging from Internet debris
+        <br>
+        okay, I made this up in two seconds, I'll rethink about the "about" later
+        <br>
+      </p>
+    </div>
 
-  <pre id="six">
-  <span class="var-highlight">var</span> behind_this_wired_place {
-      name: <span class="string-highlight">"jiawen"</span>,
-      type: <span class="string-highlight">"pre-post-human"</span>,
-      location: <span class="string-highlight">"Shanghai"</span>,
-      address: <span><a class="mail" href="mailto:hijw.yao@gmail.com">"hijw.yao@gmail.com"</a></span>,
-      awake: <span class="string-highlight">True</span>;
-  }; </pre>
+    <div id="contact">
+      <p class="me">
+        Drop her a line at <br><a class="link" href="mailto:hijw.yao@gmail.com">hijw.yao@gmail.com</a>
+      </p>
+    </div>
 
-  <br>
-  <br>
-  <br>
-  <br>
+  </div>
 
-  <pre id="seven">
-  <span class="var-highlight">var</span> behind_this_wired_place {
-      name: <span class="string-highlight">"jiawen"</span>,
-      type: <span class="string-highlight">"pre-post-human"</span>,
-      location: <span class="string-highlight">"Shanghai"</span>,
-      address: <span><a class="mail" href="mailto:hijw.yao@gmail.com">"hijw.yao@gmail.com"</a></span>,
-      awake: <span class="string-highlight">True</span>;
-  }; </pre>
+  <nav id="menu">
+    <!-- Geomel -->
+    <div id="zero_extr"><img class="static" src="imgs/geo_cover_s.png"><img class="active" src="imgs/geo_cover.gif"></div>
+      <button class="accordion" id="zero" tabindex="0"><img src="imgs/geo_cover2.gif"> </button>
 
-  <br>
-  <br>
-  <br>
-  <br>
+      <section class="panel" id="zeroP">
+        <h2>ge:odel</h2>
+        <p class="cap">about</p>
+        <p>
+          ge:odel is a package of tangible controllers that enable children to learn geometry from the perspective of 3D modeling.
+          Children will get a random 3D/2D shape and can use the extrude controller, transform controller and perspective controller, also work collaboratively to change its shape, and experience the flexible transformation of geometry.
+          <br>
+          <br>
+      </p>
+          <p class="cap">why</p>
+          <p>
+            As a designer, a new window of seeing shapes was open when I started learning 3D modeling software. A entity can be extruded from a flat surface, a surface can be extended from a line, and a line can be from a dot originally. Also, the
+            difference of building a triangle or a circle is barely how many sides you use, with polygons as transitions, which rocked my world.
+            <br>
+            <br>
+           The wonderfulness and the in-depth association among geometry shapes should be presented to children, including who are not going to learn professional 3D modeling software.
+            <br>
+            <br>
+        This project also explores the opportunity that how tangible interactive screenless toys can be alternatives of screen devices which have became a major concern of parents.
+            <br>
+            <br>
+            </p>
+            <p class="cap">how</p>
 
-  <pre id="eight">
-  <span class="var-highlight">var</span> behind_this_wired_place {
-      name: <span class="string-highlight">"jiawen"</span>,
-      type: <span class="string-highlight">"pre-post-human"</span>,
-      location: <span class="string-highlight">"Shanghai"</span>,
-      address: <span><a class="mail" href="mailto:hijw.yao@gmail.com">"hijw.yao@gmail.com"</a></span>,
-      awake: <span class="string-highlight">True</span>;
-  }; </pre>
+            <img src="imgs/geo/how.png"/>
+            <br>
+            <div class="contents">
+              <img src="imgs/geo/geo1.png"/>
+              <br>
+              <img src="imgs/geo/geo2.png"/>
+              <br>
+              <img src="imgs/geo/geo3.png"/>
+              <br>
+              <div id="v">
+                <img  src="imgs/geo/geo_4.gif"/>
+                <img  src="imgs/geo/geo_5.gif"/>
+                <img  src="imgs/geo/geo_6.gif"/>
+            </div>
+                <img src="imgs/geo/geo7.png"/>
+                <img id="green" src="imgs/geo/geo_8.gif"/>
+                <br>
+                <img id="hands_n_screen" src="imgs/geo/geo_9.gif"/>
+           </div>
+      </section>
+      <!-- Lemusade -->
+      <button class="accordion" id="one" tabindex="1" >
+      <div>
+        <img class="static" src="imgs/lemon_cover1.png"><img class="active" src="imgs/lemon_cover2.gif">
+      </div>
+    </button>
+      <section class="panel" id="oneP">
+        <h2>Lemusade</h2>
+        <p class="cap">about</p>
+        <p>
+          Lemusade is a self-service lemonade mixer box that explores new possibilities of recipes. It asks if audio can sufficiently guide us when cooking.
+          The mixing starts with a base melody. When adding different ingredients, the melody features change correspondingly which indicting the “flavor” of the lemonade.
+          <br>
+          <br>
+        </p>
+          <p class="cap">why</p>
+          <p>
+            Lemusade is an exploration of synesthesia and metaphor. In language level, we use same/similar words to describe music and flavor: “This song’s so SWEET!”, “It sounds a bit too DRY for me!”. With this metaphor that already embedded in
+            our mind, is it possible for our audio senses guide us as sufficiently as visual cues to create food tastes of our choice? By mapping the ingredients’ “flavor” to music “flavor” based on previous researches, we provide users a new perspective to view food
+            and the process of cooking.
+            <br>
+            <br>
+				</p>
+        <p class="paper">
+            Paper: Jessie Lyu, Jiawen Yao, Ankit Bansal. 2019. Lemusade: Make Lemonade Using Music (ICMI'19). <a class="link" href="https://dl.acm.org/doi/pdf/10.1145/3351529.3360649" target="_blank">pdf</a> <a class="link" href="https://dl.acm.org/doi/abs/10.1145/3351529.3360649" target="_blank">url</a>
+          <br>
+          <br>
+        </p>
+            <div class="contents">
+              <img src="imgs/lemon/lemon1.png"/>
+              <br>
+              <img src="imgs/lemon/lemon2.png"/>
+              <br>
+              <iframe src="https://www.youtube.com/embed/N9YzG0ClIkA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <img style="margin-bottom: 0vw;" src="imgs/lemon/lemon3.png"/>
+              <br>
+              <p style="font-size: 12px; color:#979797; text-align: left; margin-left: 0vw;;">teamed up with Jessie Lyu, Ankit Bansal</p>
+            </div>
+      </section>
+      <!-- ParanoidPal -->
+      <button class="accordion" id="five" tabindex="5" >
+              <div>
+                <img class="static" src="imgs/parpal_cover.png"><img class="active" src="imgs/parpal_cover.gif">
+              </div>
+            </button>
+      <section class="panel" id="fiveP">
+        <h2>Paranoid Pal</h2>
+        <p class="cap">about</p>
+        <p>
+          Paranoid Pal is your wearable pal that protects you from any kind of cameras.
+          <br>
+          <br>
+              </p>
+          <p class="cap">why</p>
+          <p>
+            It seems that putting selfies on Facebook is not a good idea any more, and setting instagram accounts to private has become a common approach; San Francisco bans the facial recognition technology, meanwhile, Hong Kong protesters have to
+            keep anonymous and faceless both in physical and digital world for their own safety.
+            <br>
+            <br>
+            At this moment, I’m typing right under a surveillance camera, and I’m wondering am I feeding my dataset to against myself at some point?
+            <br>
+            <br>
+      				</p>
+
+            <p class="cap">how</p>
+            <p>
+              I used a webcam and Wekinator, have it communicate with Arduino via serial，which controls the servo.
+            </p>
+            <br>
+
+
+            <div class="contents">
+              <img src="imgs/paranoid/par1.png"/>
+              <br>
+              <img src="imgs/paranoid/par2.png"/>
+              <br>
+              <img src="imgs/paranoid/par3.gif"/>
+              <br>
+              <br>
+              <img src="imgs/paranoid/flow.png"/>
+              <br>
+
+
+              <iframe src="https://www.youtube.com/embed/9wIJd7XqkCo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p style="font-size: 12px; color:#979797; text-align: left; margin-left: 0vw;">The cover image is from Hongkong’s anti-surveillance protest poster on 08/29/2019</p>
+                </div>
+      </section>
+
+
+
+      <!-- Heartsound -->
+      <button class="accordion" id="two" tabindex="2" >
+        <div>
+          <img class="static" src="imgs/htsd_cover.png"><img class="active" src="imgs/htsd_cover2.gif">
+        </div>
+      </button>
+      <section class="panel" id="twoP">
+        <h2>HS Amplifier</h2>
+        <p class="cap">about</p>
+        <p>
+          HS Amplifier is an installation displaying one speaker’s heart sounds with the flipping of the glass marble during a conversation. I want to
+          explore if the ambient background sound of one speaker’s heartbeats would make the conversation easier or harder for the speaker himself/herself? What about for the other one? Would it make the speaker more true to his/her heart whiling
+          speaking? Would it build a deeper understanding between both sides?
+          <br>
+          <br>
+        </p>
+          <p class="cap">why</p>
+          <p>
+            It is a rather personal project.
+            <br>
+            <br>
+            Either in the Asian culture I grew up, or as a female in an intimate relationship, I tend to hide up a part of myself and expect the other to do the mind-reading or to hear the unspoken words. Can I have a medium that can speak for that hidden part of me and be more honest than me myself?
+            <br>
+            <br>
+            My personal experience with the HS Amplifier is that I would be like speaking in front of a polygraph or through an interpreter. For one thing, I would try to make sure that I’m saying what I’m truly thinking, because otherwise my heart sounds is going to betray me. For another, it seems like I’m having an unreliable interpreter. Sometime I count on it to express myself throughly but sometimes I doubt if the other can feel what I’m feeling through the interpreter.
+            <br>
+            <br>
+				</p>
+
+            <div class="contents">
+              <img src="imgs/htsd/htsd1.jpeg"/>
+          </div>
+      </section>
+      <!-- Emotion -->
+      <button class="accordion" id="three" tabindex="3"><img src="imgs/emotion_cover.gif"></button>
+      <section class="panel" id="threeP">
+        <h2>Emotion ownership</h2>
+        <p>
+          This is a design fiction about the future of emotional biosensing, affective computing and emotion ownership. Inspired by <a class="link" href="http://nourahowell.com/" target="_blank">Noura Howell</a> et al. <a class="link" href="http://nourahowell.com/projects/emotional_biosensing.html" target="_blank">Emotional Biosensing: Exploring Critical Alternatives</a>.
+          <br>
+          <br>
+          When all the emotions are identified, tracked and “accurately” represented, who would be the owner of emotions?
+        </p>
+
+
+          <div class="contents story">
+            <img src="imgs/emotion/emo1.png"/>
+            <p>In 2042, a perfect emotion model has been found, with 100% accurate and computable, 0 ambiguity. </p>
+            <img src="imgs/emotion/emo2.png"/>
+            <p>With emotions being transparent, it prevents suicide effectively.</p>
+            <img src="imgs/emotion/emo3.png"/>
+            <p>Emotion Stability is regarded more “official” than age. Most events require ES 200&up rather than age over 21 any more.</p>
+            <img src="imgs/emotion/emo4.png"/>
+            <p>It's an era of IoE(Internet of Emotions). Emotion sensitive technology have daily objects, including the brightness of your lamp, the music style of your playlist, the selfie filters, the color of your shirts and nails, connect to your emotion
+              center, and are designed to be real-time responsive. Also you can share all your “tangible” emotions with your friends.</p>
+            <img src="imgs/emotion/emo5.png"/>
+            <p>With the example of shirts, …</p>
+            <img src="imgs/emotion/emo6.png"/>
+            <p>When shirt’s color changes are regarded as social responses, people get more sincere than ever.<br>
+            But awkward situations can happen, when your shirt is saying the opposite of what you are saying, which one do you believe? yourself or your shirt? which one does your friend believe? <br><br>
+            To avoid this awkwardness…</p>
+              <img src="imgs/emotion/emo7.png"/>
+              <p>you, as well as thousands of others, have to take the emotion control course.<br>
+            The course doesn’t only teach you how to control your emotions, but how to keep up with your shirt responses! <br><br>And finally…</p>
+                <img src="imgs/emotion/emo8.png"/>
+                <img src="imgs/emotion/emo9.png"/>
+                <img src="imgs/emotion/emo10.png"/>
+
+          </div>
+      </section>
+
+      <!-- p5js -->
+      <button class="accordion" id="four" tabindex="4" ><img src="imgs/p5js_cover.png"></button>
+
+      <section class="panel" id="fourP">
+        <h2>for fun<br><span style="color:#ED235D">p5.js</span></h2>
+        <a class="cap link" href="http://worrymetaphor.com/space/" target="_blank">: the_space :</a>
+        <br>
+        <br>
+        <div id="pic_matrix">
+          <img src="imgs/p5js/space/s1.gif"/>
+          <img src="imgs/p5js/space/s2.gif"/>
+          <img src="imgs/p5js/space/s3.gif"/>
+          <img src="imgs/p5js/space/s4.gif"/>
+          <img src="imgs/p5js/space/s5.gif"/>
+          <img src="imgs/p5js/space/s6.gif"/>
+          <img src="imgs/p5js/space/s7.gif"/>
+          <img src="imgs/p5js/space/s8.gif"/>
+          <img src="imgs/p5js/space/s9.gif"/>
+          <img src="imgs/p5js/space/s10.gif"/>
+          <img src="imgs/p5js/space/s11.gif"/>
+          <img src="imgs/p5js/space/s12.gif"/>
+      </div>
+          <br>
+          <br>
+          <br>
+          <a class="cap link" href="http://worrymetaphor.com/invisible/" target="_blank">: invisible :</a>
+          <div class="contents">
+            <p>– it’s a game.<br>
+           – it has bgm sound.<br>
+           – it's a bit sluggish now, but it's fun hopefully.<br>
+           – you can play it either with or without the webcam.<br>
+           – a trick: if you allow the webcam, take full use of a <strong>physical</strong> flashlight!
+            </p>
+            <img id="p5" src="imgs/p5js/p51.png"/>
+
+      </div>
+      </section>
+
+
+      <button class="accordion" id="void"></button>
+
+  </nav>
+
+  <!-- <footer id="footer">
+    <p>worrymetaphor - © 2019</p>
+  </footer> -->
 
 </body>
 

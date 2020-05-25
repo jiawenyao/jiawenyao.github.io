@@ -1,0 +1,103 @@
+@media (max-width: 560px) {
+  h1 {
+    font-size: 24px;
+    margin-right: 40vw;
+    top: 5vw;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  #menu {
+    height: 220vw;
+  }
+
+  #zero {
+    top: 26vw;
+    width: 20%;
+  }
+
+  #zero_extr {
+    width: 28vw;
+    top: 2vw;
+  }
+
+  #zeroP {
+    top: -5vw;
+  }
+
+  #one {
+    /* position: relative; */
+    top: 12vw;
+    left: 55vw;
+    width: 32vw;
+  }
+
+  #oneP {
+    top: 3vw;
+  }
+
+  #five {
+    position: relative;
+    top: -2vw;
+    left: 23vw;
+    width: 34vw;
+    z-index: 9999;
+    /*margin-top: 100px;*/
+  }
+
+  #fiveP {
+    top: -9vw;
+  }
+
+  #two {
+    /* position: relative; */
+    top: 10vw;
+    left: 46vw;
+    width: 28vw;
+  }
+
+  #twoP {
+    top: -3vw;
+  }
+
+  #three {
+    /* position: relative; */
+    top: 16vw;
+    left: 12vw;
+    width: 20vw;
+  }
+
+  #threeP {
+    top: 10vw;
+  }
+
+  #four {
+    /* position: relative; */
+    top: 12vw;
+    left: 47vw;
+    width: 32vw;
+		z-index:900000;
+  }
+
+  #fourP {
+    top:-6vw;
+  }
+
+  #pic_matrix {
+    width: 100%;
+  }
+
+  #pic_matrix img {
+    width: 100px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+
+    #void {
+      /* position: relative; */
+      top: 0vw;
+      left: 62vw;
+      width: 23vw;
+    }
+  }
