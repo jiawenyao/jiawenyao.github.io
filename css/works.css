@@ -1,0 +1,224 @@
+
+
+
+/* p5js project cover image, black white to color */
+#p5 {
+  transition: filter .5s ease-in-out;
+  -webkit-filter: grayscale(100%);
+  /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%);
+  /* FF 35+ */
+}
+
+#p5:hover {
+  -webkit-filter: grayscale(0%);
+  /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%);
+  /* FF 35+ */
+}
+
+
+
+/* yamiichi */
+#btn1 {
+  position: absolute;
+  top: 2vw;
+  left: 14vw;
+  width: 15vw;
+}
+
+
+/* paraniod */
+#btn2{
+  position: absolute;
+  /* float: left; */
+  top: 12vw;
+  left: 32vw;
+  width: 14vw;
+}
+
+#geoCover1 {
+  position: absolute;
+  /* float: left; */
+  top: 16vw;
+  left: -2vw;
+  width: 13vw;
+  
+}
+
+/* geo */
+#btn3 {
+  position: absolute;
+  top: 23vw;
+  left: 8vw;
+  width: 15vw;
+  
+  /*margin-top: 100px;*/
+}
+
+
+/* lemon */
+#btn4 {
+  position: absolute;
+  top: 30vw;
+  left: 45vw;
+  width: 12vw;
+  
+  /*margin-top: 100px;*/
+}
+
+
+/* time-collaps */
+#btn5 {
+  position: absolute;
+  top: 45vw;
+  left: 62vw;
+  width: 25vw;
+}
+
+/* eye */
+#btn6 {
+  position: absolute;
+  top: 4vw;
+  left: 60vw;
+  width: 10vw;
+  
+}
+
+#btn7 {
+  position: absolute;
+  top: 42vw;
+  left: 14vw;
+  width: 8vw;
+  
+}
+
+#yamiichiLogo {
+  width: 12%;
+}
+
+.wrapUp img{
+    float: left;
+    margin-top: 6px !important; 
+    margin-bottom: 0px !important; 
+    margin-right: 12px;
+}
+
+.wrappedImg {
+  display: inline;
+}
+
+.wrapUp p{
+  font-size: 28px;
+  line-height: 1;
+  text-align: justify;
+  margin:0;
+  display: inline;
+}
+
+
+
+.cap {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.paper {
+  font-family: 'Courier Prime', monospace;
+  font-size: 14px;
+}
+
+
+
+.contents {
+  margin-top: 3vh;
+}
+
+.contents img {
+  margin-top: 20px;
+  /*padding-right: 5px;
+  padding-bottom: 5px;*/
+}
+
+.story p {
+  max-width: 100%;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  text-align: center;
+}
+
+#pic_matrix img {
+  width: 170px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+#geoMoving {
+  width: 100%;
+  display: inline-block;
+}
+
+#geoMoving img {
+  width: 6vw;
+  margin-right: 2.8vw;
+  margin-left: 2.8vw;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+#geoGif1 {
+  width: 50%;
+  position: relative;
+  left: 5vw;
+  top: 2vw;
+  margin-bottom: 60px;
+}
+
+#geoGif2 {
+  width: 30%;
+  position: relative;
+  left: 1vw;
+  top: 7vw;
+  margin-bottom: 60px;
+}
+
+.paper .myLinks{
+  font-family: "NHaas Grotesk", sans-serif;
+  color:rgb(0,0,238);
+
+}
+
+p.timeFootor {
+  font-size: 10px;
+  color:#979797;
+  margin-top: 2px;
+
+}
+
+#p5Game {
+  width: 100%;
+  margin-bottom: 4vw;
+}
+
+
+
+@media (max-width: 1225px) {
+  #pic_matrix {
+    width: 700px;
+  }
+}
+
+@media (max-width: 900px) {
+
+  #pic_matrix {
+    width: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  #pic_matrix {
+    width: 100%;
+  }
+
+  
+}
