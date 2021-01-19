@@ -1,13 +1,13 @@
+@font-face {
+  font-family: "NHaas Grotesk";
+  src: url("../font/NHaasGroteskTXPro-65Md.ttf");
+}
+
 ::-webkit-scrollbar {
     width: 0px;  /* Remove scrollbar space */
     background: transparent;  /* Optional: just make scrollbar invisible */
   }
-  
-  
-  @font-face {
-    font-family: "NHaas Grotesk";
-    src: url("../font/NHaasGroteskTXPro-65Md.ttf");
-  }
+
   
   html, body {
     margin: 0;
