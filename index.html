@@ -7,16 +7,471 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <link rel="stylesheet" type="text/css" href="me.css">
-  <link rel="icon" type="image/png" href="imgs/favicon-32x32.png" sizes="32x32" />
+  <link <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="css/jquery-ui.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="css/common.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="css/works.css" type="text/css" media="all" />
+
+
+  <script src="js/jquery.min.js" type="text/javascript"></script>
+  <script src="js/jquery-ui.min.js" type="text/javascript"></script>
+  <script src="js/dialog.js" type="text/javascript"></script>
+  <link rel="icon" type="image/png" href="imgs/favicon-32x32.png" sizes="32x32" />
 
 </head>
 
 <body>
-  <!-- you found it here! 
-  i'm rebuilding the website, other than here, you can ask for a pdf portfolio from hijw.yao@gmail.com
-  thanks -->
+
+  <!-- that's how you deal with the height -->
+  <div id="container">
+    <canvas width="2250" height="1120" style="width: 1125px; height: 922px;"></canvas>
+  </div>
+
+
+  <div id="myIndex">
+    <p class="myInfo"><span>Jiawen Yao</span></p>
+    <br>
+    <br>
+    <p class="myInfo">
+      <span>
+        Jiawen is an object & interaction designer. When she's not working, she's scavenging from Internet debris.
+      </span>
+    </p>
+    <br>
+    <br>
+    <p class="myInfo">
+      <span>
+        Jiawen can be reached at <br><a class="myLinks" id="email"
+          href="mailto:hijw.yao@gmail.com">hijw.yao@gmail.com</a>
+      </span>
+    </p>
+    <br>
+    <br>
+    <br>
+    <a class="myInfo myLinks" id="current"><span>↪ Works</span></a>
+    <br>
+    <br>
+    <a class="myInfo myLinks" href="other.html"><span>↪ Other Projects<br>(things I've made/workshops etc.)</span></a>
+    <br>
+    <br>
+    <a class="myInfo myLinks" href="about.html"><span>↪ About</span></a>
+    <br>
+    <br>
+  </div>
+
+
+  <div id="projects">
+
+    <div>
+      <button class="opener" data-id="#dialog1" id="btn1"><img src="imgs/yami_cover.png"></button>
+      <button class="opener" data-id="#dialog2" id="btn2"><img class="static" src="imgs/parpal_cover.png"><img
+          class="active" src="imgs/parpal_cover.gif"></button>
+
+      <div id="geoCover1">
+        <img class="static" src="imgs/geo_cover_s.png"><img class="active" src="imgs/geo_cover.gif">
+      </div>
+
+      <button class="opener" data-id="#dialog3" id="btn3"><img src="imgs/geo_cover2.gif"></button>
+      <button class="opener" data-id="#dialog4" id="btn4"><img class="static" src="imgs/lemon_cover1.png"><img
+          class="active" src="imgs/lemon_cover2.gif"></button>
+      <button class="opener" data-id="#dialog5" id="btn5"><img class="static" src="imgs/bullet_cover1.png"><img
+          class="active" src="imgs/bullet_cover2.png"></button>
+      <button class="opener" data-id="#dialog6" id="btn6"><img src="imgs/klx_cover.png"></button>
+      <button class="opener" data-id="#dialog7" id="btn7" id="p5"><img src="imgs/p5js_cover.png"></button>
+    </div>
+
+
+    <!---------------------------------- Yami Ichi ----------------------------------------->
+    <div class="dialog" id="dialog1">
+      <!-- <section class="panel" id="pZero"> -->
+      <h2>tenretnI >> <img id="yamiichiLogo" src="imgs/yami/yamiichi_logo.png"> Internet Yami Ichi Booth</h2>
+
+      <p style="color:rgb(169, 255, 191);line-height: 1.2;">
+        The <a class="myLinks" href="http://yami-ichi.biz/" target="_blank">Internet Yami-Ichi</a> is a flea market
+        where people consumed by theInternet can share and buy Internet-related things in real life. In this
+        weird market, you can browse through the booths and find the amazing and the useless—in an ironic and humorous
+        atmosphere reminiscent of the early Internet era. The Internet Yami-Ichi is also an art project that aims to
+        materialize the virtual Internet through a performative fleamarket.
+        <br>
+        <br>
+      </p>
+
+      <p>
+        My booth sells four items during the Internet Yami Ichi at Chronus Art Center (CAC), Shanghai. They are EARBO,
+        404 BRACELETS, a real life FOLLOWER and some Tinder Usage DATA.
+        <br>
+        <br>
+      </p>
+      <div class="contents">
+        <img src="imgs/yami/yami1.png" />
+        <br>
+        <br>
+
+        <div class="wrapUp">
+          <p>
+            >EARBO is a decentralized non-censorship wearable microblogging and
+          </p>
+          <div class="wrappedImg">
+            <img src="imgs/yami/earbo.jpg" style="width:30%; margin-left: 18px;" />
+          </div>
+          <p>
+            social networking service on which users
+            post messages
+          </p>
+          <div class="wrappedImg">
+            <img src="imgs/yami/earbo2.jpg" style="width:20%; margin-left: 18px;" />
+          </div>
+          <p>
+            through bluetooth. You Are What You Say.
+          </p>
+          <br>
+          <br>
+          <br>
+          <p>
+            >Numbers on the 404 BRACELETS are invalid proxy ip addresses, which once carried their users through the
+            Great
+            Firewall in the mainland Chinese context.
+          </p>
+          <div class="wrappedImg">
+            <img src="imgs/yami/ipdress.png" style="float: right; width:19%; margin-right: 65px; margin-left:5px" />
+          </div>
+
+          <p>
+            The uniqueness of a certain IP address also make that bracelet
+            unique.
+          </p>
+          <div class="wrappedImg">
+            <img src="imgs/yami/404.jpg" style="width:20%; margin-left: 105px;" />
+          </div>
+          <p>
+            And, when all the IPv4 addresses are used up in the near future, these bracelets will also become a
+            testimony of the good old days.
+          </p>
+          <br>
+          <br>
+          <br>
+          <p>
+          >
+        </p>
+        <div class="wrappedImg">
+          <img src="imgs/yami/fo1.png" style="width:20%; margin-left: 62px;" />
+        </div>
+        <p>
+          Buy a real life FOLLOWER with a little bit of your privacy — your phone number and your home address — 
+        </p>
+        <div class="wrappedImg">
+          <img src="imgs/yami/fo2.png" style="width:22%; margin-left: 245px;" />
+        </div>
+        <p>
+          then I
+          will follow you in real would some day.
+        </p>
+        
+        <br>
+        <br>
+          <br>
+          <p>
+          >Three anonymous Tinder users would like to sell their tinder usage data claimed from Tinder. 
+        </p>
+        <div class="wrappedImg">
+          <img src="imgs/yami/data1.jpg" style="width:35%; margin-left: 85px;" />
+        </div>
+        <p>
+          The data includes  
+        </p>
+        <div class="wrappedImg" >
+          <img src="imgs/yami/data2.jpg" style="float: right; width:20%; margin-right: 65px; margin-left: 5px; " />
+        </div>
+        <p>
+          
+          daily
+          data of times of app opening, times of left swiping and right swiping, matches, the amount of message sent,
+          and received.<br>
+        </p>
+        <div class="wrappedImg">
+          <img src="imgs/yami/box.jpg" style="width:6%; margin-left: 85px;" />
+        </div>
+        <p>
+          I made a glowing pink ATM interface for them, customers can pay and get a receipt-like printed data, umm,
+          receipt.
+        </p>
+        </div>
+        <br>
+        <br>
+
+
+        <img src="imgs/yami/yami2.jpg" />
+        <br>
+      </div>
+      <!-- </section> -->
+    </div>
+    <!---------------------------- ParanoidPal -------------------------->
+    <div class="dialog" id="dialog2">
+      <!-- <section class="panel" id="pOne"> -->
+      <h2>Paranoid Pal</h2>
+      <p class="cap">about</p>
+      <p>
+        Paranoid Pal is your wearable pal that protects you from any kind of cameras.
+        <br>
+        <br>
+      </p>
+      <p class="cap">why</p>
+      <p>
+        It seems that putting selfies on Facebook is not a good idea any more, and setting instagram accounts to
+        private
+        has become a common approach; San Francisco bans the facial recognition technology, meanwhile, Hong Kong
+        protesters have to
+        keep anonymous and faceless both in physical and digital world for their own safety.
+        <br>
+        <br>
+        At this moment, I’m typing right under a surveillance camera, and I’m wondering am I feeding the dataset to
+        against myself at some point?
+        <br>
+        <br>
+      </p>
+
+      <p class="cap">how</p>
+      <p>
+        I used a webcam and Wekinator, have it communicate with Arduino via serial，which controls the servo.
+      </p>
+      <br>
+
+
+      <div class="contents">
+        <img src="imgs/paranoid/par1.png" />
+        <br>
+        <img src="imgs/paranoid/par2.png" />
+        <br>
+        <img src="imgs/paranoid/par3.gif" />
+        <br>
+        <br>
+        <img src="imgs/paranoid/flow.png" />
+        <br>
+
+
+        <!-- <iframe src="https://www.youtube.com/embed/9wIJd7XqkCo" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        <p style="font-size: 12px; color:#979797; text-align: left; margin-left: 0vw;">The cover image is from
+          Hongkong’s anti-surveillance protest poster on 08/29/2019</p>
+      </div>
+      <!-- </section> -->
+    </div>
+    <!---------------------------- Geomel ------------------------------>
+    <div class="dialog" id="dialog3">
+      <!-- <section class="panel" id="pTwo"> -->
+      <h2>ge:odel</h2>
+      <p class="cap">about</p>
+      <p>
+        ge:odel is a package of tangible controllers that enable children to learn the relationship among different
+        2D/3D geometry shapes from the perspective of 3D
+        modeling.
+        <br>
+        <br>
+      </p>
+      <p class="cap">why</p>
+      <p>
+        The reason for doing this project is that in the process of learning 3D modeling software myself, as a product
+        designer, I came to know geometry from a completely different perspective. The inter-transformation among
+        seemingly unrelated geometry shapes is totally different from what I learned in math classes.
+        <br>
+        <br>
+        I hope to present my 'discovery' in a visual and interesting way to children who are learning basic geometry
+        knowlodge, I believe it will be a good complement to what they are learning from textbook.
+        <br>
+        <br>
+        This project also explores the opportunity that how tangible interactive screenless toys can be alternatives
+        of
+        screen devices which have became a major concern of parents.
+        <br>
+        <br>
+      </p>
+      <p class="cap">how</p>
+
+      <img src="imgs/geo/how.png" />
+      <br>
+      <div class="contents">
+        <img src="imgs/geo/geo1.png" />
+        <br>
+        <img src="imgs/geo/geo2.png" />
+        <br>
+        <img src="imgs/geo/geo3.png" />
+        <br>
+        <div id="geoMoving">
+          <img src="imgs/geo/geo_4.gif" />
+          <img src="imgs/geo/geo_5.gif" />
+          <img src="imgs/geo/geo_6.gif" />
+        </div>
+        <img src="imgs/geo/geo_n.png" />
+        <img src="imgs/geo/geo7.png" />
+        <img id="geoGif1" src="imgs/geo/geo_9.gif" />
+        <img id="geoGif2" src="imgs/geo/geo_8.gif" />
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      </div>
+      <!-- </section> -->
+    </div>
+
+    <!------------------------- Lemusade ---------------------------------->
+    <div class="dialog" id="dialog4">
+      <!-- <section class="panel" id="pThree"> -->
+      <h2>Lemusade</h2>
+      <p class="cap">about</p>
+      <p>
+        The Lemusade invites users to make themselves a lemonade, but all the visual cues are hidden and the only way to
+        achieve their desired taste is through the changes of a base music's pitch, tempo and layering when adding
+        ingredients.
+        <br>
+        <br>
+      </p>
+      <p class="cap">why</p>
+      <p>
+        Based on the linguistic/cross-linguistic similarity between words used to describe musical textures and words
+        used to describe tastes, such as very 'sweet' and very 'dry'. we speculate on the possibility of using changes
+        in music as cues to suggest changes in taste, which will provide new sensory engaging experience in the kitchen.
+        <br>
+        <br>
+      </p>
+      <p class="paper">
+        Paper: Jessie Lyu, Jiawen Yao, Ankit Bansal. 2019. Lemusade: Make Lemonade Using Music (ICMI'19). <a
+          class="myLinks" href="https://dl.acm.org/doi/pdf/10.1145/3351529.3360649" target="_blank">pdf</a> <a
+          class="myLinks" href="https://dl.acm.org/doi/abs/10.1145/3351529.3360649" target="_blank">url</a>
+        <br>
+        <br>
+      </p>
+      <div class="contents">
+        <img src="imgs/lemon/lemon1.png" />
+        <br>
+        <img src="imgs/lemon/lemon2.png" />
+        <br>
+        <br>
+        <br>
+        <iframe src="https://www.youtube.com/embed/N9YzG0ClIkA" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <img style="margin-bottom: 0vw;" src="imgs/lemon/lemon3.png" />
+        <br>
+        <p style="font-size: 12px; color:#979797; text-align: left; margin-left: 1vw;;">Teamed up with Jessie Lyu,
+          Ankit
+          Bansal</p>
+      </div>
+      <!-- </section> -->
+    </div>
+
+    <!---------------------------------- de-dilute ----------------------------------------->
+    <div class="dialog" id="dialog5">
+      <!-- <section class="panel" id="pFour"> -->
+      <h2>de-dilute</h2>
+
+      <p>
+        The start of 2020 was a cold year for business in Shanghai and the streets were sparsely populated. The world
+        that should normally be bustling at this time becomes quiet as people try to keep their distance, and the buzz
+        is "diluted". We try to create virtual immediacy like "bullet comments", compressing time slices together and
+        presenting the street scene before the dilution. We also invite readers to send in photos of time slices from
+        any location, and we will help create their de-diluted images.
+        <br>
+        <br>
+        This is a work I did when I was working in MorrowAgent studio.
+      </p>
+      <div class="contents">
+        <img src="imgs/bullet/bullet1.png" />
+        <p class="timeFootor" style="text-align: center;">03.2020 Shanghai Westbund</p>
+        <br>
+        <img src="imgs/bullet/bullet2.png" />
+        <p class="timeFootor" style="text-align: center;">03.2020 Shanghai Westbund</p>
+        <br>
+        <img src="imgs/bullet/bullet3.png" />
+        <p class="timeFootor" style="text-align: center;">03.2020 Shanghai Baoshan</p>
+        <br>
+
+      </div>
+      <!-- </section> -->
+    </div>
+
+    <!---------------------------------- eye-in-eye ----------------------------------------->
+    <div class="dialog" id="dialog6">
+      <!-- <section class="panel" id="pFive"> -->
+      <h2>eye-in-eye</h2>
+
+      <p>
+        This installation is for VISTOPIA「看理想」 at Therion Bookstore「神兽之间」书店, Shanghai.
+
+        The webcam captures the eyes in front of it, the raspberry Pi will enlarge and present them respectively on the
+        left and right screens contained in two black boxes, which then will echo the VISTOPIA's logo.
+        <br>
+        <br>
+        We want to present the intimacy people looking into their own eyes, and only eyes.
+        <br>
+        <br>
+        This is a work I did when I was working in MorrowAgent studio.
+      </p>
+      <div class="contents">
+        <img src="imgs/klx/klx1.png" />
+        <br>
+        <img src="imgs/klx/klx2.png" />
+        <br>
+        <img src="imgs/klx/klx3.png" />
+        <br>
+      </div>
+      <!-- </section> -->
+    </div>
+
+
+
+    <!------------------------------ p5js ----------------------------->
+    <div class="dialog" id="dialog7">
+      <!-- <section class="panel" id="fourP"> -->
+      <h2>for fun<br><span style="color:#ED235D">p5.js</span></h2>
+      <a class="cap myLinks" href="http://worrymetaphor.com/space/" target="_blank" style="color:rgb(0,0,238);">:
+        the_space :</a>
+      <br>
+      <br>
+      <div id="pic_matrix">
+        <img src="imgs/p5js/space/s1.gif" />
+        <img src="imgs/p5js/space/s2.gif" />
+        <img src="imgs/p5js/space/s3.gif" />
+        <img src="imgs/p5js/space/s4.gif" />
+        <img src="imgs/p5js/space/s5.gif" />
+        <img src="imgs/p5js/space/s6.gif" />
+        <img src="imgs/p5js/space/s7.gif" />
+        <img src="imgs/p5js/space/s8.gif" />
+        <img src="imgs/p5js/space/s9.gif" />
+        <img src="imgs/p5js/space/s10.gif" />
+        <img src="imgs/p5js/space/s11.gif" />
+        <img src="imgs/p5js/space/s12.gif" />
+      </div>
+      <br>
+      <br>
+      <br>
+      <a class="cap myLinks" href="http://worrymetaphor.com/invisible/" target="_blank" style="color:rgb(0,0,238);">:
+        invisible :</a>
+      <div class="contents">
+        <p>– it’s a game.<br>
+          – it has bgm sound.<br>
+          – it's a bit sluggish now, but it's fun hopefully.<br>
+          – you can play it either with or without the webcam.<br>
+          – a trick: if you allow the webcam, take full use of a <strong>physical</strong> flashlight!
+        </p>
+        <img id="p5Game" src="imgs/p5js/p51.png" />
+
+      </div>
+      <!-- </section> -->
+    </div>
+
+
+  </div>
+
+
+
+
+
 </body>
+
+<!-- <footer id="footer">
+  <p>worrymetaphor©2021</p>
+</footer> -->
 
 </html>
