@@ -56,6 +56,9 @@ img {
     max-width: 500px;
 }
 
+input {
+    cursor: pointer;
+}
 
 #end-back {
     text-align: right;
