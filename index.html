@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-  <title>Jiawen Yao</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <link rel="stylesheet" type="text/css" href="me.css">
-  <link rel="icon" type="image/png" href="imgs/favicon-32x32.png" sizes="32x32" />
-
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jiawen yao</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
-
 <body>
-  <!-- you found it here! 
-  i'm rebuilding the website, other than here, you can ask for a pdf portfolio from hijw.yao@gmail.com
-  thanks -->
-</body>
+<div id="content">
+    <!-- onchange="submitForm(); -->
+    
+    <select class="index" id="drop-down" name="myform">
+        <option selected disabled>works</option>
+        <option onclick='changeImg("./imgs/leaky.png", "leaky.html");' >leaky network</option>
+        <option onclick='changeImg("./imgs/loading.jpg", "loading.html");' >[loading...]</option>
+        <option onclick='changeImg("./imgs/bbb.png", "browsing-broswer-browsed.html");'>browsing-broswer-browsed</option>
+        <option onclick='changeImg("./imgs/un-cvnt.jpg", "unfamiliar-convenient.html");'>unfamiliar convenient</option>
+        <option onclick='changeImg("./imgs/yamiichi.jpg", "internet-yamiichi.html");'>tenretnI >>Internet Yami Ichi booth</option>
+        <option onclick='changeImg("./imgs/unknown.jpeg", "unknown.html");'>unknown</option>
+        <option onclick='changeImg("./imgs/eye-eye.jpg", "eye-eye.html");'>eye-eye</option>
+        <option disabled>not-works</option>
+        <!-- <option onclick='changeImg("./imgs/me.jpg", "about.html");'>٩(　ᐕ)و about</option> -->
+        <option onclick='changeImg("./imgs/me.jpg", "about.html");'>𓁹 ͜ 𓁹 about jiawen</option>
+        <option onclick='changeImg("./imgs/xinhui.png", "random_sharing_desire.html");' >( ◔⊰◔)-=🎂三三☲=💨 random sharing desire</option>
+      </select>
+     
+      <br>
+      <div class="index" id="img-box">
 
+      </div>
+</div>
+     <script src="js/script.js"></script>
+      
+</body>
 </html>

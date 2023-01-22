@@ -1,0 +1,29 @@
+#drop-down {
+    width: 250px;
+}
+
+.index {
+margin: auto;
+}
+
+#content {
+    margin: auto;
+    width: 250px;
+    text-align:center;
+    position: absolute;
+    top: 42%;
+    left: 42%;
+
+}
+
+#img-box{  
+    position:relative;
+    display:inline-block;
+    margin-top: 15px;
+    height: 100px;
+    width:100px;
+    border:solid 1px grey;
+    overflow:hidden;
+}
+
+  

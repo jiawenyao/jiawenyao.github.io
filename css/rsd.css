@@ -1,0 +1,61 @@
+/* body {
+    height: 100vh;
+    margin: 0;
+    background: radial-gradient(circle, rgba(116,201,255,1), rgba(247,226,136,1) 500px);
+    background-repeat: no-repeat;
+  
+} */
+
+#computer {
+    position: absolute;
+    top: 2vw;
+    left: 8vw;
+    width: 15vw;
+}
+
+#handmade-homepage {
+    position: absolute;
+    /* float: left; */
+    top: 12vw;
+    left: 32vw;
+    width: 15vw;
+}
+
+#short-circuit {
+    position: absolute;
+    top: 4vw;
+    left: 49vw;
+    width: 11vw;
+}
+
+
+/* #btn4 {
+    position: absolute;
+    top: 30vw;
+    left: 45vw;
+    width: 12vw;
+}
+
+
+#btn5 {
+    position: absolute;
+    top: 45vw;
+    left: 62vw;
+    width: 25vw;
+}
+
+#btn6 {
+    position: absolute;
+    top: 4vw;
+    left: 60vw;
+    width: 10vw;
+
+}
+
+#btn7 {
+    position: absolute;
+    top: 42vw;
+    left: 14vw;
+    width: 8vw;
+
+} */
