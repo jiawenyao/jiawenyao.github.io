@@ -6,6 +6,10 @@
   
 } */
 
+input {
+    cursor: pointer;
+}
+
 #computer {
     position: absolute;
     top: 2vw;
