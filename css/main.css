@@ -7,9 +7,9 @@
 } */
 
 #container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #content {
@@ -33,15 +33,22 @@
   overflow: hidden;
 }
 
-@media (hover: none){
+@media (hover: none) {
   /* touch stuff goes here */
   #content {
     display: none;
   }
+
   #touch-screen {
     display: block !important;
   }
+
   body {
-    background-color: blue;
-  };
+    background: radial-gradient(
+      circle,
+      rgba(116, 201, 255, 1),
+      rgba(247, 226, 136, 1) 500px
+    );
+    background-repeat: no-repeat;
+  }
 }
