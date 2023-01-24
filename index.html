@@ -15,8 +15,9 @@
         <div id="content">
             
             <select class="index" id="drop-down" name="myform">
-                <option selected disabled>works</option>
-                <option onclick='changeImg("./imgs/leaky.png", "leaky.html");'>leaky network</option>
+                <option selected disabled>jiawen yao</option>
+                <option disabled>works</option>
+                <option onclick='changeImg("./imgs/leaky.png", "leaky.html");' ontouchstart='mobileChangeImg(e, "./imgs/leaky.png", "leaky.html");'>leaky network</option>
                 <option onclick='changeImg("./imgs/loading.jpg", "loading.html");'>[loading...]</option>
                 <option onclick='changeImg("./imgs/bbb.png", "browsing-broswer-browsed.html");'>browsing-broswer-browsed
                 </option>
@@ -40,6 +41,8 @@
         </div>
     </div>
     <script src="js/script.js"></script>
+    <script src="https://cdn.rawgit.com/hammerjs/touchemulator/master/touch-emulator.js"></script>
+
 
 </body>
 
