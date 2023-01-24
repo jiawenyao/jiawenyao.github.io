@@ -32,3 +32,13 @@
   border: solid 1px grey;
   overflow: hidden;
 }
+
+@media (hover: none){
+  /* touch stuff goes here */
+  #content {
+    display: none;
+  }
+  #touch-screen {
+    display: block;
+  }
+}
