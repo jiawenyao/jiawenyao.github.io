@@ -1,3 +1,6 @@
+const touch = matchMedia('(hover: none)').matches;
+
+
 
 function changeImg(src, link) {
     let a = document.createElement("a");
