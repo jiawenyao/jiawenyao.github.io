@@ -48,7 +48,6 @@ h3 {
 
 img {
     max-width: 1000px;
-    height: 100%;
 }
 
 .small-img {
@@ -104,7 +103,6 @@ input {
 
     img {
         max-width: 500px;
-        height: 100%;
     }
 
     .small-img {
@@ -151,7 +149,6 @@ input {
 
     img {
         max-width: 400px;
-        height: 100%;
     }
 
     .small-img {

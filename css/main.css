@@ -44,11 +44,6 @@
   }
 
   body {
-    background: radial-gradient(
-      circle,
-      rgba(116, 201, 255, 1),
-      rgba(247, 226, 136, 1) 500px
-    );
-    background-repeat: no-repeat;
+background-color: blue;
   }
 }
