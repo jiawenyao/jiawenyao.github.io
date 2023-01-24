@@ -39,6 +39,9 @@
     display: none;
   }
   #touch-screen {
-    display: block;
+    display: block !important;
   }
+  body {
+    background-color: blue;
+  };
 }
