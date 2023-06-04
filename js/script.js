@@ -2,8 +2,11 @@ var options = [{
         "img": "./imgs/leaky.jpg",
         "page": "leaky.html",
         "name": "leaky"
-    },
-    {
+    }, {
+        "img": "./imgs/uncertainty.jpg",
+        "page": "certainty-irl-on-uncertainty-iml.html",
+        "name": "Certainty IRL on Uncertainty IML"
+    }, {
         "img": "./imgs/loading.jpg",
         "page": "loading.html",
         "name": "[loading...]"
