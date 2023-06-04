@@ -32,6 +32,19 @@ input {
     width: 11vw;
 }
 
+#zeros_ones {
+    position: absolute;
+    top: 6vw;
+    left: 87vw;
+    width: 13vw;
+}
+
+#flying_toast {
+    position: absolute;
+    top: 24vw;
+    left: 69vw;
+    width: 25vw;
+}
 
 /* #btn4 {
     position: absolute;
