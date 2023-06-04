@@ -8,43 +8,46 @@
     <title>jiawen yao</title>
     <link rel="stylesheet" href="css/main.css" />
     <link rel="shortcut icon" type="image/x-icon" href="imgs/favicon-32x32.png" />
+
 </head>
 
 <body>
+    <!-- special thanks to Alberto and Julia for helping me debug the code for the website -->
     <div id="container">
         <div id="content">
-            <select class="index" id="drop-down" name="myform">
+            <select class="index" id="drop-down" name="myform" onchange="onChange(event)">
                 <option selected disabled>jiawen yao</option>
-                <option disabled>works</option>
-                <option onclick='changeImg("./imgs/leaky.png", "leaky.html");'>
+                <!-- <option disabled>works</option> -->
+                <!--
+                <option img="./imgs/leaky.png" page="leaky.html" onclick='changeImg("./imgs/leaky.png", "leaky.html");'>
                     leaky network
                 </option>
-                <option onclick='changeImg("./imgs/loading.jpg", "loading.html");'>
+                <option name="./imgs/loading.jpg" page="loading.html" onclick='changeImg("./imgs/loading.jpg", "loading.html");'>
                     [loading...]
                 </option>
-                <option onclick='changeImg("./imgs/bbb.png", "browsing-broswer-browsed.html");'>
+                <option name="./imgs/bbb.png" page="browsing-broswer-browsed.html" onclick='changeImg("./imgs/bbb.png", "browsing-broswer-browsed.html");'>
                     browsing-broswer-browsed
                 </option>
-                <option onclick='changeImg("./imgs/un-cvnt.jpg", "unfamiliar-convenient.html");'>
+                <option name="./imgs/un-cvnt.jpg" page="unfamiliar-convenient.html" onclick='changeImg("./imgs/un-cvnt.jpg", "unfamiliar-convenient.html");'>
                     unfamiliar convenient
                 </option>
-                <option onclick='changeImg("./imgs/yamiichi.jpg", "internet-yamiichi.html");'>
+                <option name="./imgs/yamiichi.jpg" page="internet-yamiichi.html" onclick='changeImg("./imgs/yamiichi.jpg", "internet-yamiichi.html");'>
                     tenretnI >>Internet Yami Ichi booth
                 </option>
-                <option onclick='changeImg("./imgs/unknown.jpeg", "unknown.html");'>
+                <option name="./imgs/unknown.jpeg" page="unknown.html" onclick='changeImg("./imgs/unknown.jpeg", "unknown.html");'>
                     unknown
                 </option>
-                <option onclick='changeImg("./imgs/eye-eye.jpg", "eye-eye.html");'>
+                <option name="./imgs/eye-eye.jpg" page="eye-eye.html" onclick='changeImg("./imgs/eye-eye.jpg", "eye-eye.html");'>
                     eye-eye
                 </option>
                 <option disabled>not-works</option>
-                <!-- <option onclick='changeImg("./imgs/me.jpg", "about.html");'>٩(　ᐕ)و about</option> -->
-                <option onclick='changeImg("./imgs/me.jpg", "about.html");'>
+                <option name="./imgs/me.jpg" page="about.html" onclick='changeImg("./imgs/me.jpg", "about.html");'>
                     𓁹 ͜ 𓁹 about jiawen
                 </option>
-                <option onclick='changeImg("./imgs/xinhui.png", "random_sharing_desire.html");'>
+                <option name="./imgs/xinhui.png" page="random_sharing_desire.html" onclick='changeImg("./imgs/xinhui.png", "random_sharing_desire.html");'>
                     ( ◔⊰◔)-=🎂三三☲=💨 random sharing desire
                 </option>
+            -->
             </select>
 
             <br />
@@ -54,7 +57,7 @@
             <p>jiawen yao</p>
             <p style="font-size: 0.8em;">i designed the website for desktop, you are viewing a touch-screen version</p>
 
-            <a href="leaky.html"><button>leaky network</button></a><br>
+            <a href="leaky.html"><button>leaky</button></a><br>
             <a href="loading.html"><button>[loading...]</button></a><br>
             <a href="browsing-broswer-browsed.html"><button>browsing-broswer-browsed</button></a><br>
             <a href="unfamiliar-convenient.html"><button>unfamiliar convenient</button></a><br>
@@ -63,11 +66,12 @@
             <a href="eye-eye.html"><button>eye-eye</button></a><br>
             <br>
             <br>
-            <a href="about.html"><button>𓁹 ͜ 𓁹 about jiawen</button></a><br>
-            <a href="random_sharing_desire.html"><button>( ◔⊰◔)-=🎂三三☲=💨 random sharing desire</button></a>
+            <a href="about.html"><button>𓂂 ꒰ ᐧ༚̮ᐧ ꒱ᐧ༚̮ᐧ ꒱ ꙳ about jiawen</button></a><br>
+            <a href="random_sharing_desire.html"><button>ₒ₍₊˒₃˓₎ₒ▁▂▃▅▆▓▒░✩⃛ random sharing desire</button></a>
         </div>
     </div>
     <script src="js/script.js"></script>
+
 </body>
 
 </html>
