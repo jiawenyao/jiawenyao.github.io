@@ -1,51 +1,70 @@
 var options = [{
-        "img": "./imgs/leaky.jpg",
-        "page": "leaky.html",
-        "name": "leaky"
-    }, {
-        "img": "./imgs/uncertainty.jpg",
-        "page": "certainty-irl-on-uncertainty-iml.html",
-        "name": "Certainty IRL on Uncertainty IML"
-    }, {
-        "img": "./imgs/loading.jpg",
-        "page": "loading.html",
-        "name": "[loading...]"
-    }, {
-        "img": "./imgs/bbb.png",
-        "page": "browsing-broswer-browsed.html",
-        "name": "browsing-broswer-browsed"
-    }, {
-        "img": "./imgs/un-cvnt.jpg",
-        "page": "unfamiliar-convenient.html",
-        "name": "unfamiliar convenient"
-    }, {
-        "img": "./imgs/yamiichi.jpg",
-        "page": "internet-yamiichi.html",
-        "name": "tenretnI >>Internet Yami Ichi booth"
-    }, {
-        "img": "./imgs/unknown.jpeg",
-        "page": "unknown.html",
-        "name": "unknown"
-    }, {
-        "img": "./imgs/eye-eye.jpg",
-        "page": "eye-eye.html",
-        "name": "eye-eye"
-    }, {
-        "img": "./imgs/me.jpg",
-        "page": "about.html",
-        "name": "𓂂 ꒰ ᐧ༚̮ᐧ ꒱ᐧ༚̮ᐧ ꒱ ꙳ about jiawen"
-    }, {
-        "img": "./imgs/xinhui.png",
-        "page": "random_sharing_desire.html",
-        "name": "ₒ₍₊˒₃˓₎ₒ▁▂▃▅▆▓▒░✩⃛ random sharing desire"
-    }
-]
+    "img": "./imgs/leaky.jpg",
+    "page": "leaky.html",
+    "name": "leaky",
+    "disabled": "0"
+}, {
+    "img": "./imgs/uncertainty.jpg",
+    "page": "certainty-irl-on-uncertainty-iml.html",
+    "name": "Certainty IRL on Uncertainty IML",
+    "disabled": "0"
+}, {
+    "img": "./imgs/loading.jpg",
+    "page": "loading.html",
+    "name": "[loading...]",
+    "disabled": "0"
+}, {
+    "img": "./imgs/bbb.png",
+    "page": "browsing-broswer-browsed.html",
+    "name": "browsing-broswer-browsed",
+    "disabled": "0"
+}, {
+    "img": "./imgs/un-cvnt.jpg",
+    "page": "unfamiliar-convenient.html",
+    "name": "unfamiliar convenient",
+    "disabled": "0"
+}, {
+    "img": "./imgs/yamiichi.jpg",
+    "page": "internet-yamiichi.html",
+    "name": "tenretnI >>Internet Yami Ichi booth",
+    "disabled": "0"
+}, {
+    "img": "./imgs/unknown.jpeg",
+    "page": "unknown.html",
+    "name": "unknown",
+    "disabled": "0"
+}, {
+    "img": "./imgs/eye-eye.jpg",
+    "page": "eye-eye.html",
+    "name": "eye-eye",
+    "disabled": "0"
+}, {
+    "name": "else",
+    "disabled": "1"
+}, {
+    "img": "./imgs/me.jpg",
+    "page": "about.html",
+    "name": "𓂂 ꒰ ᐧ༚̮ᐧ ꒱ᐧ༚̮ᐧ ꒱ ꙳ about jiawen",
+    "disabled": "0"
+}, {
+    "img": "./imgs/xinhui.png",
+    "page": "random_sharing_desire.html",
+    "name": "ₒ₍₊˒₃˓₎ₒ▁▂▃▅▆▓▒░✩⃛ random sharing desire",
+    "disabled": "0"
+}]
 
 options.forEach(option => {
-    let element = document.createElement("option");
-    element.innerText = option.name
-    element.value = option.page
-    document.getElementById("drop-down").appendChild(element);
+    if (option.disabled == "0") {
+        let element = document.createElement("option");
+        element.innerText = option.name
+        element.value = option.page
+        document.getElementById("drop-down").appendChild(element);
+    } else {
+        let element = document.createElement("option");
+        element.innerText = option.name;
+        element.disabled = true;
+        document.getElementById("drop-down").appendChild(element);
+    }
 
 })
 
