@@ -1,7 +1,7 @@
 var options = [{
-    "img": "./imgs/leaky.jpg",
-    "page": "leaky.html",
-    "name": "leaky",
+    "img": "./imgs/leaky.png",
+    "page": "leak-a-lil.html",
+    "name": "let yourself l̴͓̥̠̼̏̑̃̂̂͘ḛ̷̺̟͓͈̜̓̋̍̄̆ä̸̞̝̳́̾̓̈̾k̷͎̰̓̒͘ a little ",
     "disabled": "0"
 }, {
     "img": "./imgs/uncertainty.jpg",
