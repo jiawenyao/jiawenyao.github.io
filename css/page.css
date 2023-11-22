@@ -60,16 +60,20 @@ img {
 
 input {
     cursor: pointer;
+    
+
+}
+
+input:hover {
+    background-color:darkgrey;
+    color: chartreuse;
+    border-radius:5px;
 }
 
 #end-back {
     text-align: right;
 }
 
-form :hover {
-    background-color:darkgrey;
-    color: chartreuse;
-}
 
 @media only screen and (min-width: 600px) and (max-width: 959px) {
     .text-post {
