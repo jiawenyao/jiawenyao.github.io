@@ -49,7 +49,7 @@ var options = [{
 }, {
     "img": "./imgs/xinhui.png",
     "page": "random_sharing_desire.html",
-    "name": "ₒ₍₊˒₃˓₎ₒ▁▂▃▅▆▓▒░✩⃛ random sharing desire",
+    "name": "⎝̐̈⎛̐̈•̐̈‿̐̈•̐̈⎞̐̈⎠̐̈ random sharing desire",
     "disabled": "0"
 }]
 
