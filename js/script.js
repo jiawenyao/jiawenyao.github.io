@@ -1,4 +1,9 @@
 var options = [{
+    "img": "./imgs/slippery.png",
+    "page": "filter-heuristics.html",
+    "name": "filter heuristics",
+    "disabled": "0"
+}, {
     "img": "./imgs/leaky.png",
     "page": "leak-a-lil.html",
     "name": "let yourself l̴͓̥̠̼̏̑̃̂̂͘ḛ̷̺̟͓͈̜̓̋̍̄̆ä̸̞̝̳́̾̓̈̾k̷͎̰̓̒͘ a little ",
