@@ -14,18 +14,26 @@ tr {
 
 .text-post {
     width: 500px;
+    max-height: 100vh;
+    overflow: scroll;
 }
 
 .img-post-big {
     width: 1000px;
+    max-height: 100vh;
+    overflow: scroll;
 }
 
 .img-post-medium {
     width: 500px;
+    max-height: 100vh;
+    overflow: scroll;
 }
 
 .img-post-small {
     width: 200px;
+    max-height: 100vh;
+    overflow: scroll;
 }
 
 p {
@@ -71,7 +79,7 @@ input:hover {
 }
 
 #end-back {
-    text-align: right;
+    text-align: left;
 }
 
 
