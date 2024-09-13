@@ -1,5 +1,5 @@
 var options = [{
-    "img": "./imgs/slippery.png",
+    "img": "./imgs/cover.png",
     "page": "filter-heuristics.html",
     "name": "filter heuristics",
     "disabled": "0"
@@ -49,12 +49,12 @@ var options = [{
 }, {
     "img": "./imgs/me.jpg",
     "page": "about.html",
-    "name": "𓂂 ꒰ ᐧ༚̮ᐧ ꒱ᐧ༚̮ᐧ ꒱ ꙳ about jiawen",
+    "name": "(((((about jiawen)))))",
     "disabled": "0"
 }, {
     "img": "./imgs/xinhui.png",
     "page": "random_sharing_desire.html",
-    "name": "⎝̐̈⎛̐̈•̐̈‿̐̈•̐̈⎞̐̈⎠̐̈ random sharing desire",
+    "name": "‧₊˚❀༉‧₊˚. 𐦍༘⋆𖡎 random sharing desire 𖡎༘⋆ 𐦍༘.˚₊‧༉❀˚₊‧",
     "disabled": "0"
 }]
 
