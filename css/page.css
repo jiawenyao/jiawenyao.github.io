@@ -297,7 +297,7 @@ input:hover {
     .img-post-big {
         width: 400px;
     }
-    
+   
     .img-post-medium {
         width: 300px;
     }
@@ -324,7 +324,7 @@ input:hover {
         letter-spacing: 0.01px;
     }
 
-    img {
+    .img-post-big img {
         max-width: 400px;
     }
 
