@@ -1,9 +1,4 @@
 var options = [{
-    "img": "./imgs/data-flesh.png",
-    "page": "data-flesh.html",
-    "name": "Data into Flesh, Flesh into Data",
-    "disabled": "0"
-}, {
     "img": "./imgs/cover.png",
     "page": "filter-heuristics.html",
     "name": "Filter Heuristics",
@@ -13,7 +8,12 @@ var options = [{
     "page": "leak-a-lil.html",
     "name": "let yourself l̴͓̥̠̼̏̑̃̂̂͘ḛ̷̺̟͓͈̜̓̋̍̄̆ä̸̞̝̳́̾̓̈̾k̷͎̰̓̒͘ a little ",
     "disabled": "0"
-}, {
+},{
+    "img": "./imgs/data-flesh.png",
+    "page": "data-flesh.html",
+    "name": "Data into Flesh, Flesh into Data",
+    "disabled": "0"
+},{
     "img": "./imgs/uncertainty.jpg",
     "page": "certainty-irl-on-uncertainty-iml.html",
     "name": "Certainty IRL on Uncertainty IML",
