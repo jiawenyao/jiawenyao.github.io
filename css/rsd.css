@@ -10,15 +10,24 @@ input {
     cursor: pointer;
 }
 
-#computer {
+.rsd img {
     position: absolute;
+    transition: all 0.3s ease;
+    display: block;
+    cursor: pointer;
+}
+
+#computer {
     top: 2vw;
     left: 8vw;
     width: 15vw;
 }
 
+#computer:hover {
+    transform: scale(3) translateY(4vw);
+}
+
 #handmade-homepage {
-    position: absolute;
     /* float: left; */
     top: 12vw;
     left: 32vw;
@@ -26,21 +35,27 @@ input {
 }
 
 #short-circuit {
-    position: absolute;
     top: 4vw;
     left: 49vw;
     width: 11vw;
 }
+#short-circuit:hover {
+    transform: scale(3) translateY(4vw);
+}
+
 
 #zeros_ones {
-    position: absolute;
     top: 6vw;
     left: 87vw;
     width: 13vw;
+    z-index:999; 
+}
+
+#zeros_ones:hover {
+    transform: scale(3) translateX(-5vw) translateY(4vw);
 }
 
 #flying_toast {
-    position: absolute;
     top: 24vw;
     left: 69vw;
     width: 25vw;

@@ -1,88 +1,41 @@
 @font-face {
-    font-family: "Neue Haas Grotesk";
-    src: url("fonts/NHaasGroteskTXPro-55Rg.ttf");
+    font-family: "Homoneta-Regular";
+    src: url("fonts/Homoneta-Regular.woff2") format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Homoneta-Italic";
+    src: url("fonts/Homoneta-Italic.woff2") format('woff2');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "ApfelGrotezk-Regular";
+    src: url("fonts/ApfelGrotezk-Regular.woff2") format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ApfelGrotezk-Brukt";
+    src: url("fonts/ApfelGrotezk-Brukt.woff2") format('woff2');
+    font-weight: 400;
+    font-style: normal;
 }
 
 body {
-    font-family: "Neue Haas Grotesk", Sans-serif;
+    font-family: "ApfelGrotezk-Regular", Sans-serif;
 
 }
 
-tr {
-    vertical-align: top;
-}
-
-.text-post {
-    width: 500px;
-    max-height: 100vh;
-    overflow: scroll;
-}
-
-.img-post-big {
-    width: 1000px;
-    max-height: 100vh;
-    overflow: scroll;
-}
-
-.img-post-medium {
-    width: 500px;
-    max-height: 100vh;
-    overflow: scroll;
-}
-
-.img-post-small {
-    width: 200px;
-    max-height: 100vh;
-    overflow: scroll;
-}
-
-p {
-    font-size: 1.2em;
-    margin: 0 0 15px 0;
-    line-height: 1.3;
-}
-
-
-
-h2 {
-    font-size: 2.5em;
-    letter-spacing: 0.01px;
-}
-
-h3 {
-    font-size: 1.2em;
-    letter-spacing: 0.01px;
-}
-
-img {
-    max-width: 1000px;
-}
-
-.small-img {
-    max-width: 200px;
-}
-
-.medium-img {
-    max-width: 500px;
-}
-
-input {
-    cursor: pointer;
-    
-
-}
-
-input:hover {
-    background-color:darkgrey;
-    color: chartreuse;
-    border-radius:5px;
-}
-
-#end-back {
-    text-align: left;
-}
-
+/* ======================= news ======================= */
 .active_rainbow {
+    font-family: "Homoneta-Italic", serif;
+    font-style: italic;
+    font-size: 1em;
     background: linear-gradient(to left, #6666ff, #0099ff , #00ff00, #fcd303, #ff3399, #fc0318, #fc7703, #fc03ba,#e689f5, #6666ff);
     -webkit-background-clip: text;
     background-clip: text;
@@ -100,6 +53,190 @@ input:hover {
         background-position: 100% 0;
     }
 }
+
+/* ====================== homie ======================== */
+.homie #drop-down {
+    width: 250px;
+  }
+  
+.homie #container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.homie #content {
+    width: 250px;
+    text-align: center;
+    position: absolute;
+    top: 42%;
+    /* margin: auto;
+      position: absolute;
+      top: 42%;
+      left: 39%; */
+  }
+  
+.homie #img-box {
+    position: relative;
+    display: inline-block;
+    margin-top: 15px;
+    height: 100px;
+    width: 100px;
+    border: solid 1px grey;
+    overflow: hidden;
+  }
+
+/* ====================== each project ======================== */
+
+body.project {
+    margin:0;
+}
+
+#page-wrap{
+    overflow: scroll;
+    scrollbar-color: rgb(255, 0, 0) rgb(0, 255, 0);
+  scrollbar-width: thin;
+}
+
+tr {
+    vertical-align: top;
+}
+
+.text-post {
+    width: 500px;
+    padding: 0 30px 0px 30px;
+    /* max-height: 100vh; */
+    height: 100vh;
+    overflow: scroll;
+    scrollbar-color: red rgb(0, 255, 0);
+  scrollbar-width: thin;
+
+}
+
+.img-post-big {
+    width: 1000px;
+    /* max-height: 100vh; */
+    height: 100vh;
+    overflow: scroll;
+    scrollbar-color: red rgb(0, 255, 0);
+  scrollbar-width: thin;
+}
+
+.img-post-medium {
+    width: 500px;
+    /* max-height: 100vh; */
+    height: 100vh;
+    overflow: scroll;
+    scrollbar-color: red rgb(0, 255, 0);
+  scrollbar-width: thin;
+}
+
+.img-post-small {
+    width: 200px;
+    /* max-height: 100vh; */
+    height: 100vh;
+    overflow: scroll;
+    scrollbar-color: red rgb(0, 255, 0);
+  scrollbar-width: thin;
+}
+
+
+p {
+    font-size: 1.2em;
+    margin-bottom:15px;
+    line-height: 1.3;
+}
+
+
+h2 {
+    margin-top: 30px;
+    font-family: "ApfelGrotezk-Brukt", Sans-serif;
+    font-size: 2.5em;
+    letter-spacing: 0.01px;
+    
+}
+
+h3 {
+    font-family: "ApfelGrotezk-Brukt", Sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 0.01px;
+}
+
+.img-post-big img {
+    max-width: 1000px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.img-post-big img:last-of-type {
+    margin-bottom: 0;
+}
+
+
+.small-img {
+    max-width: 200px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.small-img:last-of-type {
+    margin-bottom: 0;
+}
+
+.medium-img {
+    max-width: 500px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.medium-img:last-of-type {
+    margin-bottom: 0;
+}
+
+input {
+    cursor: pointer;   
+}
+
+form {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+input:hover {
+    background-color:darkgrey;
+    color: chartreuse;
+    border-radius:5px;
+}
+
+#end-back {
+    text-align: left;
+}
+
+.reference {
+    font-family: "Homoneta-Regular", serif;
+    font-size: 1em;
+    margin: 0 0 15px 0;
+    line-height: 1.3;
+}
+
+.reference-color {
+    color: blue;
+}
+
+.reference-title {
+    font-family: "Homoneta-Italic", serif;
+    font-size: 1em;
+    font-style: italic;
+    margin: 0 0 20px 0;
+    line-height: 1.3;
+}
+
+
+.technical-info {
+    font-family: "ApfelGrotezk-Brukt", Sans-serif;
+    font-size: 1em;
+}
+
 
 
 @media only screen and (min-width: 600px) and (max-width: 959px) {
@@ -128,11 +265,13 @@ input:hover {
 
 
     h2 {
+        font-family: "ApfelGrotezk-Brukt", Sans-serif;
         font-size: 2em;
         letter-spacing: 0.01px;
     }
 
     h3 {
+        font-family: "ApfelGrotezk-Brukt", Sans-serif;
         font-size: 1.5em;
         letter-spacing: 0.01px;
     }
@@ -174,11 +313,13 @@ input:hover {
     }
 
     h2 {
+        font-family: "ApfelGrotezk-Brukt", Sans-serif;
         font-size: 1.8em;
         letter-spacing: 0.01px;
     }
 
     h3 {
+        font-family: "ApfelGrotezk-Brukt", Sans-serif;
         font-size: 1.2em;
         letter-spacing: 0.01px;
     }

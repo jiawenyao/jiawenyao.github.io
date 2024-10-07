@@ -1,7 +1,12 @@
 var options = [{
+    "img": "./imgs/data-flesh.png",
+    "page": "data-flesh.html",
+    "name": "Data into Flesh, Flesh into Data",
+    "disabled": "0"
+}, {
     "img": "./imgs/cover.png",
     "page": "filter-heuristics.html",
-    "name": "filter heuristics",
+    "name": "Filter Heuristics",
     "disabled": "0"
 }, {
     "img": "./imgs/leaky.png",
