@@ -61,6 +61,65 @@ input {
     width: 25vw;
 }
 
+#soft_math_lab {
+    top: 35vw;
+    left: 13vw;
+    width: 10vw;
+}
+
+#hallo_darkworld_openai {
+    top: 30vw;
+    left: 23vw;
+    width: 20vw;
+}
+
+#hallo_darkworld_openai:hover {
+    transform: scale(3) translateX(5vw) translateY(-1vw);
+}
+
+#yaeji {
+    top: 19vw;
+    left: 63vw;
+    width: 8vw;
+}
+
+#line_of_desire {
+    top: 45vw;
+    left: 55vw;
+    width: 31vw;
+}
+
+#line_of_desire:hover {
+    transform: scale(3) translateX(-5vw) translateY(-5vw);
+}
+
+#meteorology_being {
+    top: 25vw;
+    left: 48vw;
+    width: 11vw;
+}
+
+#meteorology_being:hover {
+    transform: scale(3) translateX(5vw) translateY(-1vw);
+}
+
+#spooned {
+    top: 12vw;
+    left: 65vw;
+    width: 13vw;
+}
+
+
+#infinity {
+    top: 48vw;
+    left: 8vw;
+    width: 11vw;
+}
+
+#infinity:hover {
+    transform: scale(3) translateX(5vw) translateY(-1vw);
+}
+
 /* #btn4 {
     position: absolute;
     top: 30vw;
