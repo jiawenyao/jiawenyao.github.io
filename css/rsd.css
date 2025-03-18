@@ -120,6 +120,16 @@ input {
     transform: scale(3) translateX(5vw) translateY(-1vw);
 }
 
+#bug {
+    top: 50vw;
+    left: 40vw;
+    width: 22vw;
+}
+
+#bug:hover {
+    transform: scale(3) translateX(2vw) translateY(2vw);
+}
+
 /* #btn4 {
     position: absolute;
     top: 30vw;
