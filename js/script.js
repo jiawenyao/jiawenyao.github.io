@@ -44,11 +44,6 @@ var options = [{
     "name": "unknown",
     "disabled": "0"
 }, {
-    "img": "./imgs/eye-eye.jpg",
-    "page": "eye-eye.html",
-    "name": "eye-eye",
-    "disabled": "0"
-}, {
     "name": "else",
     "disabled": "1"
 }, {
