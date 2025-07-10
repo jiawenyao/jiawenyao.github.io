@@ -29,14 +29,14 @@ var options = [{
     "name": "browsing-broswer-browsed",
     "disabled": "0"
 }, {
-    "img": "./imgs/un-cvnt.jpg",
-    "page": "unfamiliar-convenient.html",
-    "name": "unfamiliar convenient",
-    "disabled": "0"
-}, {
     "img": "./imgs/yamiichi.jpg",
     "page": "internet-yamiichi.html",
     "name": "tenretnI >>Internet Yami Ichi booth",
+    "disabled": "0"
+}, {
+    "img": "./imgs/un-cvnt.jpg",
+    "page": "unfamiliar-convenient.html",
+    "name": "unfamiliar convenient",
     "disabled": "0"
 }, {
     "img": "./imgs/unknown.jpeg",
