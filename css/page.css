@@ -147,6 +147,11 @@ p {
     line-height: 1.3;
 }
 
+#bio {
+    paint-order: stroke fill;
+    -webkit-text-stroke: 3px #A8A8A8;
+}
+
 
 h2 {
     margin-top: 30px;
@@ -236,6 +241,8 @@ input:hover {
     font-family: "ApfelGrotezk-Brukt", Sans-serif;
     font-size: 1em;
 }
+
+
 
 
 
